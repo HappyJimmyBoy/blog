@@ -16,7 +16,7 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: '吉米的世界', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "Astro-Yi", // required
