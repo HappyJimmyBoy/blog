@@ -2,7 +2,7 @@
 
 [[English]](./README.md) | [[简体中文]](./README-ZH-CN.md)
 
-Demo：[Astro-Theme-Yi](https://astro-yi-nu.vercel.app/)
+Demo：[Astro-Theme-Yi](https://lgrj.netlify.app/)
 
 A content-focused Astro blog theme, Yi, in Chinese, it means fast and concise.
 
@@ -74,7 +74,7 @@ export const site = {
     author: "xxxxx",
     avatar: '/avatar.png',
     motto: 'Keep moving.',
-    url: 'https://astro-yi-nu.vercel.app',
+    url: 'https://lgrj.netlify.app',
     recentBlogSize: 5,
     archivePageSize: 25,
     postPageSize: 10,

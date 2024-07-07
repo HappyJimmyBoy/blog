@@ -22,7 +22,7 @@ export const site = {
   author: "Astro-Yi", // required
   avatar: '/avatar.png', // required
   motto: 'Actions speak louder than words.',
-  url: 'https://astro-yi-nu.vercel.app',
+  url: 'https://lgrj.netlify.app',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
@@ -38,7 +38,7 @@ export const site = {
  */
 export const config = {
   busuanzi: false,
-  lang: 'en', // en | zh-cn
+  lang: 'zh-cn', // en | zh-cn
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
   ga: false // If you want to integrate with Google Analytics, just enter your GA-ID here.
 }
@@ -52,48 +52,54 @@ export const config = {
  */
 export const categories = [
   {
-    name: "Blog",
-    iconClass: "ri-draft-line",
-    href: "/blog/1",
-  },
-  {
-    name: "Feed",
-    iconClass: "ri-lightbulb-flash-line",
-    href: "/feed/1",
-  },
-  {
-    name: "Archive",
-    iconClass: "ri-archive-line",
-    href: "/archive/1",
-  },
-  {
-    name: "Message",
-    iconClass: "ri-chat-1-line",
-    href: "/message",
-  },
-  {
-    name: "Search",
+    name: "搜索",
     iconClass: "ri-search-line",
     href: "/search",
   },
   {
-    name: "More",
-    iconClass: "ri-more-fill",
-    href: "javascript:void(0);",
-    children: [
-      {
-        name: 'About',
-        iconClass: 'ri-information-line',
-        href: '/about',
-      },
-      {
-        name: 'Friends',
-        iconClass: 'ri-user-5-line',
-        href: '/friends',
-        target: '_self',
-      },
-    ]
-  }
+    name: "博客",
+    iconClass: "ri-draft-line",
+    href: "/blog/1",
+  },
+  // {
+  //   name: "Feed",
+  //   iconClass: "ri-lightbulb-flash-line",
+  //   href: "/feed/1",
+  // },
+  {
+    name: "存档",
+    iconClass: "ri-archive-line",
+    href: "/archive/1",
+  },
+  {
+    name: "消息",
+    iconClass: "ri-chat-1-line",
+    href: "/message",
+  },
+  
+  {
+    name: '关于我',
+    iconClass: 'ri-information-line',
+    href: '/about',
+  },
+  // {
+  //   name: "More",
+  //   iconClass: "ri-more-fill",
+  //   href: "javascript:void(0);",
+  //   children: [
+  //     {
+  //       name: 'About',
+  //       iconClass: 'ri-information-line',
+  //       href: '/about',
+  //     },
+      // {
+      //   name: 'Friends',
+      //   iconClass: 'ri-user-5-line',
+      //   href: '/friends',
+      //   target: '_self',
+      // },
+    // ]
+  // }
 ]
 
 /**
@@ -123,7 +129,7 @@ export const infoLinks = [
   {
     icon: 'ri-rss-fill',
     name: 'rss',
-    outlink: 'https://astro-yi-nu.vercel.app/rss.xml',
+    outlink: 'https://lgrj.netlify.app/rss.xml',
   }
 ]
 

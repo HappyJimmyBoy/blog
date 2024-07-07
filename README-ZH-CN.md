@@ -2,7 +2,7 @@
 
 [[English]](./README.md) | [[简体中文]](./README-ZH-CN.md)
 
-预览地址：[Astro-Theme-Yi](https://astro-yi-nu.vercel.app/)
+预览地址：[Astro-Theme-Yi](https://lgrj.netlify.app/)
 
 更多配置内容，请参阅文章： [Astro-YI Write Skill](https://cirry.cn/blog/frontend/astro/config-and-write-skill)
 
@@ -78,7 +78,7 @@ export const site = {
     author: "Cirry",
     avatar: '/avatar.png',
     motto: '最重要的事情只有一件',
-    url: 'https://astro-yi-nu.vercel.app',
+    url: 'https://lgrj.netlify.app',
     recentBlogSize: 5,
     archivePageSize: 25,
     postPageSize: 10,

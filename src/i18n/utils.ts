@@ -4,8 +4,9 @@ import {cs} from './cs'
 import {config} from "../consts";
 
 const ui = {
-  en,
   'zh-cn':zhCn,
+  en,
+  
   cs
 }
 
